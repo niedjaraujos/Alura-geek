@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    line-height: auto;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: inherit;
+}
+
+body{
+    background-color: #bbcdf8;
+    font-family: "Press Start 2P", Helvetica, sans-serif;
+}
+header{
+       background: #8C0385;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-principal{
+    max-height: 500px;
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0px 70px 70px;
+    gap: 60px;
+}
+.formulario{
+    display: flex;
+    padding: 20px 0;
+    flex-direction:column;
+    gap: 14px;
+}
+.inputs{
+    padding: 16px;
+    border-radius: 10px;
+    border: solid 2px #8C0385;
+}
+.produts{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    max-height: 90%;
+    padding-top: 20px;
+    gap: 20px;
+    border-radius: 10px;
+    box-shadow: -5px 5px 5px 5px  rgba(142, 18, 111, 0.39);
+    overflow-y: scroll;
+    }
+.card{
+    background: #8C0385;
+    color: #ffffff;
+    width: 190px;
+    height: 240px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    padding: 10px;
+    justify-content: center;
+}
+.card img{
+   max-width:100%;
+}
+.informacao{
+font-family: Helvetica, sans-serif;
+font-size: 20px;
+}
+
+.valor__delete {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px 10px 10px;
+}
+button{
+cursor: pointer;
+background: none;
+}
+
+.produts h1{
+    margin-bottom: 10px;
+}
+.botoes-submit{
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+}
+.btn-submit{
+    background: #8C0385;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: solid 2px #8C0385;
+}
+.btn-submit:hover {
+    cursor: pointer;
+    background: #bbcdf8;
+    color: #8C0385;
+    border: solid 2px #8C0385;
+}
+.btn-reset{
+    color: #8C0385;
+    font-size: 20px;
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: solid 2px #8C0385;
+}
+.btn-reset:hover {
+    cursor: pointer;
+    background: #ffffff;
+    color: #8C0385;
+     border: solid 2px #8C0385;
+}
+footer{
+     background: #8C0385;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer h3{
+   font-family:Helvetica, sans-serif; 
+   font-size: 20px;
+}
+h3 span{
+    color: #fff;
+}
+footer p{
+    font-family:Helvetica, sans-serif;
+}
+
+@media (max-width: 905px){
+.section-principal{
+    display: flex;
+    max-height: none;
+    flex-direction:column;
+    margin:40px 10px;
+    gap:50px;
+}
+
+.botoes-submit{
+    padding:20px;
+    display: flex;
+    gap:10px;
+}
+.container{
+    padding-top:30px;
+    gap: 20px;
+}
+}

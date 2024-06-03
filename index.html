@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>AluraGeek</title>
+</head>
+
+<body>
+    <header > <img src="img/logoAlura.png" alt="logo corações" class="logoAlura"></header>
+    <main class="section-principal">
+        <section>
+            <h2>Adicionar Produto:</h2>
+            <form class="formulario" data-form>
+                <input data-name type="text"  class="inputs" placeholder="Nome..." required>
+                <input data-price type="text"  class="inputs" placeholder="Preço..." required>
+                <input data-image type="text"  class="inputs" data-image placeholder="Url da imagem..." required>
+                <div class="botoes-submit">
+                    <button type="submit" class="btn-submit" id="button">Enviar</button>
+                    <button type="reset" class="btn-reset" id="button">Limpar</button>
+            </form>
+        </section>
+
+        <section class="produts">
+            <h1>Meus Produtos:</h1>
+            <div class="container" data-lista>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <img src="img/logoAlura.png" alt="logo corações" class="logoAlura">
+        <h3>Desenvolvido por [<span>Niedja Araujo</span>]</h3>
+
+        <p>Alura One Turma 6 - 2024</p>
+    </footer>
+
+    <script src="script/produtos.js" type="module"></script>
+</body>
+
+</html>
